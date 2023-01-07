@@ -197,7 +197,6 @@ body {
 
 .page-header {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 
 .menu {
@@ -221,10 +220,15 @@ body {
 
 .container {
   width: 1200px;
-  margin: 174px 215px 94px;
+  margin: 0 auto;
 }
 
 .button3 {
   display: flex;
   justify-content: center;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
 }
