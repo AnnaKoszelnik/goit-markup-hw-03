@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
-  width: 1600px;
 }
 :root {
   --main-color: #212121;
@@ -241,13 +240,14 @@ body {
 .cards-item {
   display: flex;
   flex-basis: 270px;
-  gap: 30px;
 }
 
 .team-cards {
   width: 270px;
   height: 368px;
   background: #ffffff;
+  margin-left: 0;
+  gap: 30px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
