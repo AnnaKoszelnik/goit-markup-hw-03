@@ -107,6 +107,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   cursor: pointer;
+  width: 114px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-style: none;
+  margin-right: 8px;
 }
 .button2:hover,
 .button2:focus {
@@ -288,4 +294,9 @@ body {
 }
 .team-section {
   background: #f5f4fa;
+}
+
+.portfolio-header {
+  height: 80px;
+  border-bottom: 1px solid #ececec;
 }
