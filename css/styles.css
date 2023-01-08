@@ -27,6 +27,9 @@ body {
   color: var(--second-color);
   padding-left: 24px;
 }
+.no-gap {
+  display: block;
+}
 
 .logo-blue {
   color: #2196f3;
