@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
+  width: 1600px;
 }
 :root {
   --main-color: #212121;
@@ -58,10 +59,6 @@ body {
 }
 
 .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
   background: #2f303a;
 }
 
@@ -127,9 +124,17 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  width: 696px;
+  height: 120px;
+  margin: 0 auto;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
+.title-1 {
+  background-color: #2f303a;
+}
 .button1 {
   font-family: "Roboto";
   font-weight: 700;
@@ -219,8 +224,12 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.section {
+  padding: 94px 0;
 }
 
 .button3 {
@@ -240,6 +249,7 @@ body {
 .cards-item {
   display: flex;
   flex-basis: 270px;
+  column-gap: 30px;
 }
 
 .team-cards {
@@ -247,7 +257,7 @@ body {
   height: 368px;
   background: #ffffff;
   margin-left: 0;
-  gap: 30px;
+  column-gap: 30px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
