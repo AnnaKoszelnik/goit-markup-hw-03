@@ -63,10 +63,19 @@ body {
 .list {
   list-style-type: none;
   padding-left: 0;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.list-portfolio {
+  list-style-type: none;
+  margin: 0 auto 34px;
 }
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
@@ -77,10 +86,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-.address-footer {
-  padding-top: 20px;
-  padding-bottom: 60px;
 }
 
 .info-footer {
