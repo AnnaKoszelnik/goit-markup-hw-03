@@ -149,34 +149,30 @@ body {
   height: 120px;
   margin: 0 auto;
   background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  margin-bottom: 30px;
+  margin-top: 106px;
 }
 
 .title-1 {
   background-color: #2f303a;
 }
 .button1 {
-  font-family: "Roboto";
+  display: flex;
+  margin: auto;
+  background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  width: 200px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border-radius: 4px;
-  border: 0;
-  padding: 0;
-  margin-top: 30px;
-  margin-left: 700px;
+  padding: 10px 41px 10px 42px;
+  margin-bottom: 106px;
 }
+
 .button1:hover,
 .button1:focus {
   color: #2196f3;
@@ -200,7 +196,7 @@ body {
   color: var(--second-color);
 }
 
-.subtitle-second {
+.subtitle-second-1 {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
@@ -209,6 +205,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.subtitle-second-2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .member-name {
@@ -293,13 +302,12 @@ body {
   width: 270px;
   height: 368px;
   background: #ffffff;
-  margin-left: 0;
-  column-gap: 30px;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin: 0px auto 0px;
 }
+
 .team-section {
   background: #f5f4fa;
 }
