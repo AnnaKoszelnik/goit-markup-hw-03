@@ -1,14 +1,12 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
-  width: 1600px;
 }
 :root {
   --main-color: #212121;
   --second-color: #757575;
 }
 .photo-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -16,16 +14,13 @@ body {
   color: var(--main-color);
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 24px;
 }
 
 .photo-subtitle {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  padding-left: 24px;
 }
 .no-gap {
   display: block;
@@ -80,7 +75,6 @@ body {
 
 .address {
   text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -90,7 +84,6 @@ body {
 
 .info-footer {
   text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -101,7 +94,6 @@ body {
 
 .link {
   text-decoration: none;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -111,7 +103,6 @@ body {
 }
 
 .button2 {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -142,7 +133,6 @@ body {
   color: var(--second-color);
 }
 .title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -150,8 +140,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  width: 696px;
-  height: 120px;
   margin: 0 auto;
   background-color: #2f303a;
   margin-bottom: 30px;
@@ -160,6 +148,8 @@ body {
 
 .title-1 {
   background-color: #2f303a;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .button1 {
   display: flex;
@@ -184,7 +174,6 @@ body {
 }
 
 .subtitle {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -194,7 +183,6 @@ body {
 }
 
 .description {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,7 +190,6 @@ body {
 }
 
 .subtitle-second-1 {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.19;
@@ -214,7 +201,6 @@ body {
 }
 
 .subtitle-second-2 {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.19;
@@ -226,7 +212,6 @@ body {
 }
 
 .member-name {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -238,7 +223,6 @@ body {
 }
 
 .position {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -271,7 +255,7 @@ body {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .container {
@@ -295,6 +279,7 @@ body {
 
 .images-2 {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .cards-item {
@@ -310,7 +295,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin: 0px auto 0px;
 }
 
 .team-section {
